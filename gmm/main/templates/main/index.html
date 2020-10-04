@@ -1,5 +1,5 @@
 <!-- index.html(메인) -->
-<!-- main.css(메인CSS )-->
+<!-- style.css(메인CSS )-->
 <!-- des.html(소개글 팝업) -->
 {% load static %}
 <!doctype HTML>
@@ -7,17 +7,24 @@
   <head>
     <link rel="stylesheet" href="{% static 'main/style.css' %}">
     <title>GMM</title>
+
+    <!-- 하이퍼링크 밑줄 제거 -->
+      <style type="text/css">
+        a { text-decoration:none }
+      </style>
+    <!-- 하이퍼링크 밑줄 제거 -->
   </head>
+
   <body>
     <br>
     <h4>메인</h4>
     <br>
 
-    <!-- header (GMM로고? 민트 싫어 ㅜ)-->
+    <!-- header (GMM로고? 민트 싫어 ㅜㅜ)-->
       <header>
-        <span style="color:#01DFD7; font-size:4.5em; ">GMM</span>
+        <span style="color:#01DFD7; font-size:4.5em;">GMM</span>
       </header>
-    <!-- header (GMM로고?)-->
+    <!-- header (GMM로고? 민트 싫어 ㅜㅜ)-->
 
     <!-- section -->
       <section>
@@ -28,15 +35,18 @@
           <br>
           <br>
 
+    <!-- 홈페이지 소개글 -->
           <span style="font-size:1.7em;">
             자신의 난이도에 맞게 악성코드를
             <br>
             풀면서 학습해보세요
           </span>
+    <!-- 홈페이지 소개글 -->
 
     <!-- 홈페이지 소개글 팝업 -->
         <div id=homepage
-        onclick="window.open('des.html','des','width=670px,height=300px,top=220px,left=500,location=no,status=no,scrollbars=no');">
+          onclick="window.open('des.html','des','width=670px,height=300px,
+                   top=220px,left=500,location=no,status=no,scrollbars=no');">
           <span style="font-size:1.5em;">홈페이지 소개글</span>
         </div>
     <!-- 홈페이지 소개글 팝업 -->
@@ -44,13 +54,23 @@
     <!-- article -->
       <article>
 
-      <ul>
+      <div id=beginner>
+        <a href="http://127.0.0.1:8000/beginner">
+          <font size=6.5em; color="#01DFD7" face="beginner">초보자</a>
+        </font>
+      </div>
 
-        <li><a href="http://127.0.0.1:8000/beginner">초보자</a></li>
-        <li><a href="http://127.0.0.1:8000/expert">중급자</a></li>
-        <li><a href="http://127.0.0.1:8000/expert">고급자</a></li>
+      <div id=expert>
+        <a href="http://127.0.0.1:8000/expert">
+          <font size=6.5em; color="#01DFD7" face="beginner">중급자</a>
+        </font>
+      </div>
 
-      <ul>
+      <div id=expert>
+        <a href="http://127.0.0.1:8000/expert">
+          <font size=6.5em; color="#01DFD7" face="expert">고급자</a>
+        </font>
+      </div>
 
       </article>
     <!-- article -->

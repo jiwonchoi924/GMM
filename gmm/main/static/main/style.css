@@ -2,7 +2,7 @@ h4{/* 메인 */
   margin-left: 250px;
   }
 
-header{ /* GMM */
+header{ /* GMM 민트로고 */
 	margin-left:250px;
 	width: auto;
 	}
@@ -15,10 +15,44 @@ header{ /* GMM */
   	}
 
   #homepage{/* 홈페이지 소개글 팝업 */
-    height: auto; width: 100%; border:6px solid black; padding:10px; width: 300px;
-    position: absolute; top: 330px; left: 820px; height: auto;
+    text-align:center;
+    height: auto;
+    width: 100%;
+    border:6px solid black;
+    padding:10px;
+    width: 300px;
+    position: absolute;
+    top: 330px;
+    left: 820px;
+    height: auto;
   }
 
   article{ /* 난이도 선택 */
     margin-top: 100px;
+  }
+
+  #beginner{ /* 초보자 박스 */
+    text-align:center;
+    height: auto;
+    width: 100%;
+    border:3px solid black;
+    padding:10px;
+    width: 150px;
+    position: absolute;
+    top: 550px;
+    left: 255px;
+    height: auto;
+  }
+
+  #expert{ /* 고급자 박스 */
+    text-align:center;
+    height: auto;
+    width: 100%;
+    border:3px solid black;
+    padding:10px;
+    width: 150px;
+    position: absolute;
+    top: 550px;
+    left: 570px;
+    height: auto;
   }
