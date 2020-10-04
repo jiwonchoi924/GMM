@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'main.apps.MainConfig',
     'beginner.apps.BeginnerConfig',
+    'intermediate.apps.IntermediateConfig',
     'expert.apps.ExpertConfig',
     'django.contrib.admin',
     'django.contrib.auth',
