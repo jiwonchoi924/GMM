@@ -1,0 +1,24 @@
+h4{/* 메인 */
+  margin-left: 250px;
+  }
+
+header{ /* GMM */
+	margin-left:250px;
+	width: auto;
+	}
+
+  section{ /* 악성코드 풀어보기 */
+  	margin: 150px;
+    margin-left:250px;
+  	margin-top:70px;
+    margin-bottom: 0px;
+  	}
+
+  #homepage{/* 홈페이지 소개글 팝업 */
+    height: auto; width: 100%; border:6px solid black; padding:10px; width: 300px;
+    position: absolute; top: 330px; left: 820px; height: auto;
+  }
+
+  article{ /* 난이도 선택 */
+    margin-top: 100px;
+  }
