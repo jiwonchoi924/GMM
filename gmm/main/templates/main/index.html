@@ -1,15 +1,61 @@
+<!-- index.html(메인) -->
+<!-- main.css(메인CSS )-->
+<!-- des.html(소개글 팝업) -->
 <!doctype HTML>
+{% load static %}
 <html>
   <head>
+    <link rel="stylesheet" href="../../static/main/style.css">
     <title>GMM</title>
   </head>
   <body>
-    <h1>GMM</h1>
-    <br />
-    <br />
-    <ul>
-      <li><a href="http://127.0.0.1:8000/beginner">Beginner</a></li>
-      <li><a href="http://127.0.0.1:8000/expert">Expert</a></li>
-    <ul>
+    <br>
+    <h4>메인</h4>
+    <br>
+
+    <!-- header (GMM로고? 민트 싫어 ㅜ)-->
+      <header>
+        <span style="color:#01DFD7; font-size:4.5em; ">GMM</span>
+      </header>
+    <!-- header (GMM로고?)-->
+
+    <!-- section -->
+      <section>
+
+          <span style="font-size:2.5em;">악성코드 풀어보기</span>
+
+          <br>
+          <br>
+          <br>
+
+          <span style="font-size:1.7em;">
+            자신의 난이도에 맞게 악성코드를
+            <br>
+            풀면서 학습해보세요
+          </span>
+
+    <!-- 홈페이지 소개글 팝업 -->
+        <div id=homepage
+        onclick="window.open('des.html','des','width=670px,height=300px,top=220px,left=500,location=no,status=no,scrollbars=no');">
+          <span style="font-size:1.5em;">홈페이지 소개글</span>
+        </div>
+    <!-- 홈페이지 소개글 팝업 -->
+
+    <!-- article -->
+      <article>
+
+      <ul>
+
+        <li><a href="http://127.0.0.1:8000/beginner">초보자</a></li>
+        <li><a href="http://127.0.0.1:8000/expert">중급자</a></li>
+        <li><a href="http://127.0.0.1:8000/expert">고급자</a></li>
+
+      <ul>
+
+      </article>
+    <!-- article -->
+      </section>
+    <!-- section -->
+
   </body>
 </html>
