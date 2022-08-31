@@ -1,0 +1,5 @@
+﻿  file.cpp
+  main.cpp
+  코드를 생성하고 있습니다...
+c:\users\jiwon choi\documents\visual studio 2017\projects\gmm1\gmm1\file.cpp(77): warning C4715: 'isTarget': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  GMM1.vcxproj -> C:\Users\Jiwon Choi\Documents\Visual Studio 2017\Projects\GMM1\Debug\GMM1.exe
